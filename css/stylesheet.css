@@ -30,12 +30,17 @@ nav ul {
 }
 
 nav ul li {
+  font-family: "PT Sans";
   top: 0;
   color: white;
   display: inline-block;
   border: 1px solid transparent;
   padding: 10px 20px;
   margin: 0;
+}
+
+nav ul li:hover {
+  cursor: pointer;
 }
 
 li.nav-right {
@@ -50,10 +55,10 @@ nav ul li:hover {
 
 header img {
   position: relative;
-  top: 120px;
-  left: 200px;
-  width: 250px;
-  height: 250px;
+  top: 140px;
+  left: 220px;
+  width: 180px;
+  height: 180px;
   float: left;
 }
 
@@ -77,6 +82,12 @@ div {
   height: 1000px;
 }
 
+
 main {
   background-color: white;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 40px;
 }
