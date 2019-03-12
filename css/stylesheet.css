@@ -12,9 +12,8 @@ body {
 #header-img {
   position: fixed;
   width: 100%;
-  top: -350px;
+  top: -50px;
   z-index: -1;
-  transform: scaleX(-1);
 }
 /*----------nav----------*/
 
@@ -86,7 +85,6 @@ div {
   height: 1000px;
 }
 
-
 main {
   background-color: white;
 }
@@ -99,5 +97,21 @@ footer {
 /*----------section----------*/
 
 section {
-  border: 1px solid black;
+  display: inline-block;
+  border: 2px solid #ccc;
+  width: calc(50% - 104px);
+  padding: 20px;
+  border-radius: 20px;
+}
+#about-me {
+  float: left;
+  margin: 40px 20px 20px 40px;
+}
+#hobbies {
+  float: right;
+  margin: 40px 40px 20px 20px;
+}
+#top-ten {
+  float: left;
+  margin: 20px 20px 20px 40px;
 }
