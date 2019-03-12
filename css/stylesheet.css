@@ -4,6 +4,15 @@
 
 
 /*---------------------*/
+h1 {
+  font-family: "PT Sans", sans-serif;
+}
+p, li, a {
+  font-family: "PLayfair Display", 'Times New Roman', serif;
+}
+h3 {
+  font-family: "PT Sans", sans-serif;
+}
 body {
   margin: 0px;
   padding: 0;
@@ -123,4 +132,14 @@ section h2 {
 #questions {
   float: right;
   margin: 20px 40px 20px 20px;
+}
+#quiz {
+  width: 400px;
+  height: 150px;
+  text-align: center;
+  margin-top: 200px;
+  padding-bottom: 30px;
+}
+body.center {
+  text-align: center;
 }
