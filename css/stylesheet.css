@@ -2,6 +2,8 @@
   /*border: 1px solid black;*/
 }
 
+
+/*---------------------*/
 body {
   margin: 0px;
   padding: 0;
@@ -35,12 +37,14 @@ nav ul li {
   color: white;
   display: inline-block;
   border: 1px solid transparent;
+  transition: border .2s ease-in-out;
   padding: 10px 20px;
   margin: 0;
 }
 
 nav ul li:hover {
   cursor: pointer;
+  border: 1px solid white;
 }
 
 li.nav-right {
@@ -90,4 +94,10 @@ main {
 footer {
   text-align: center;
   margin-bottom: 40px;
+}
+
+/*----------section----------*/
+
+section {
+  border: 1px solid black;
 }
