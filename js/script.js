@@ -147,7 +147,7 @@ function start() {
       }
     }
   }
-   // Question 7 ------------------------------------------------------
+  // Question 7 ------------------------------------------------------
   function questionSeven() {
     for (var j = 0; j < 4; j++) {
       console.log('init');
@@ -171,6 +171,7 @@ function start() {
       }
     }
   }
+  
 
   questionOne();
   questionTwo();
@@ -179,7 +180,7 @@ function start() {
   questionFive();
   questionSix();
   questionSeven();
-  
+
   // Score display ---------------------------------------------------
 
   document.getElementById('score').innerHTML = 'Score: ' + score + '/7';
