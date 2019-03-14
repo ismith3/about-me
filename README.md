@@ -8,4 +8,5 @@ Background photos courtesy of Pexels.com
 Quiz page lab 09:
 
 Navigator was Ian Smith
+
 Driver was Michele Saba
