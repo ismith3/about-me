@@ -1,8 +1,11 @@
 # about-me
-All about me
 
-For example, I can now clone from GitHub!
+This is a page that contains all of the information about yours truly, Ian Smith.
 
-Let's add these changes!
+Background photos courtesy of Pexels.com
 
-Hello!
+
+Quiz page lab 09:
+
+Navigator was Ian Smith
+Driver was Michele Saba
