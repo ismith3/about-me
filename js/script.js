@@ -20,13 +20,13 @@ function start() {
     alert('Correct! Pineapple never belongs on pizza');
     score ++;
     console.log('correct');
-    console.log(score);
+    console.log('Score: ' + score);
   }
   else if ((answerOne.toLowerCase() === 'yes') || (answerOne.toLowerCase() === 'y')) 
   {
     alert('Wrong! Pineapple never belongs on pizza');
     console.log('incorrect');
-    console.log(score);
+    console.log('Score: ' + score);
   }
   else {
     alert('Please enter yes or no');
@@ -40,12 +40,12 @@ function start() {
     score ++;
     alert('Correct! I have all ten of my toes.');
     console.log('correct');
-    console.log(score);
+    console.log('Score: ' + score);
   }
   else if ((answerTwo.toLowerCase() === 'no') || (answerTwo.toLowerCase() === 'n')) {
     alert('Wrong! I have all ten of my toes.');
-    console.log('incorrect');
-    console.log(score);
+    console.log('Answer: incorrect');
+    console.log('Score: ' + score);
   }
   else {
     alert('Please enter yes or no');
@@ -59,12 +59,12 @@ function start() {
     score ++;
     alert('Correct! I have been to California.');
     console.log('correct');
-    console.log(score);
+    console.log('Score: ' + score);
   } 
   else if ((answerThree.toLowerCase() === 'no') || (answerThree.toLowerCase() === 'n')) {
     alert('Wrong! I have been to California.');
     console.log('incorrect');
-    console.log(score);
+    console.log('Score: ' + score);
   }
   else {
     alert('Please enter yes or no');
@@ -79,12 +79,12 @@ function start() {
     score ++;
     alert('Correct! I absolutely despise it.');
     console.log('correct');
-    console.log(score);
+    console.log('Score: ' + score);
   } 
   else if ((answerFour.toLowerCase() === 'yes') || (answerFour.toLowerCase() === 'y')) {
     alert('Wrong! I absolutely despise it.');
     console.log('incorrect');
-    console.log(score);
+    console.log('Score: ' + score);
   }
   else {
     alert('PLease enter yes or no');
@@ -99,12 +99,12 @@ function start() {
     score ++;
     alert('Correctamundo!');
     console.log('correct');
-    console.log(score);
+    console.log('Score: ' + score);
   } 
   else if ((answerFive.toLowerCase() === 'no') || (answerFive.toLowerCase() === 'n')) {
     alert('Wrong!');
     console.log('incorrect');
-    console.log(score);
+    console.log('Score: ' + score);
   }
   else {
     alert('Please enter yes or no');
@@ -112,7 +112,7 @@ function start() {
 
   // Question 6 ------------------------------------------------------
 
-  var message;
+  
 
   for (var i = 0; i < 4; i++) {
 
@@ -122,24 +122,25 @@ function start() {
     // answer validation and higher/lower message --------------------
 
     if (answerSix < 5) {
-      message = 'Wrong! Higher.';
+      alert('Wrong! Higher.');
       console.log('higher');
-      alert(message);
       continue;
     }
     else if (answerSix > 5) {
-      message = 'Wrong! Lower.';
+      alert('Wrong! Lower.');
       console.log('lower');
-      alert(message);
       continue;
     }
-    else {
-      message = 'Correct! Empire is the best one.';
+    else if (answerSix === 5) {
+      alert('Correct! Empire is the best one.');
       console.log('correct');
       score ++;
       console.log(score);
-      alert(message);
       break;
+    }
+    else {
+      alert('Please enter a number.');
+      continue;
     }
   }
 
