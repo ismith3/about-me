@@ -5,13 +5,13 @@
 
 /*---------------------*/
 h1 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 p, li, a {
   font-family: "PLayfair Display", 'Times New Roman', serif;
 }
 h3 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 body {
   margin: 0px;
@@ -41,7 +41,7 @@ nav ul {
 }
 
 nav ul li {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   top: 0;
   color: white;
   display: inline-block;
@@ -97,6 +97,7 @@ div {
 
 main {
   background-color: white;
+  height: 2000px;
 }
 
 footer {
@@ -115,7 +116,7 @@ section {
   border-radius: 20px;
 }
 section h2 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 #about-me {
   float: left;
